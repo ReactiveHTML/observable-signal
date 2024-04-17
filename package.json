@@ -1,0 +1,51 @@
+{
+  "name": "observable-signal",
+  "version": "0.1.0",
+  "description": "Observable and Signals merged together to support imperative and functional reactive paradigms",
+  "main": "dist/index.cjs",
+  "module": "dist/index.mjs",
+  "types": "dist/types/index.d.ts",
+  "sideEffect": false,
+  "scripts": {
+    "build": "rimraf dist && rollup --bundleConfigAsCjs --config rollup.config.ts --configPlugin typescript",
+    "dev": "rimraf dist && rollup -w --bundleConfigAsCjs --config rollup.config.ts --configPlugin typescript",
+    "test": "bun test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ReactiveH/observable-signal.git"
+  },
+  "keywords": [
+    "observable-signal",
+    "observable",
+    "signal",
+    "rxjs",
+    "rx",
+    "html",
+    "reactive"
+  ],
+  "author": "Dario Mannu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ReactiveH/observable-signal"
+  },
+  "homepage": "https://github.com/ReactiveH/observable-signal",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-json": "^6.1.0",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-terser": "^0.4.4",
+    "@rollup/plugin-typescript": "^11.1.6",
+    "@types/jest": "^29.5.11",
+    "@types/node": "^20.11.5",
+    "rimraf": "^3.0.2",
+    "rollup": "^4.9.5",
+    "ts-node": "^10.9.2",
+    "tslib": "^2.6.2",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "rxjs": "^7.8.1"
+  }
+}
+
