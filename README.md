@@ -30,3 +30,6 @@ export const Button = () => {
 document.body.innerHTML = Button();
 ```
 
+## Playground
+
+https://stackblitz.com/edit/observable-signal

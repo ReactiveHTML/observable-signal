@@ -1,6 +1,6 @@
 {
   "name": "observable-signal",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Observable and Signals merged together to support imperative and functional reactive paradigms",
   "main": "dist/index.cjs",
   "module": "dist/index.mjs",
@@ -48,4 +48,3 @@
     "rxjs": "^7.8.1"
   }
 }
-
