@@ -1,6 +1,6 @@
 {
   "name": "observable-signal",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Observable and Signals merged together to support imperative and functional reactive paradigms",
   "main": "dist/index.cjs",
   "module": "dist/index.mjs",
